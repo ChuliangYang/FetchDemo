@@ -1,5 +1,7 @@
 # FetchDemo
 
+Demonstrate modern android app architectual approach (MVVM + Clean architecture)
+
 ## Requirement
 
 Please write a native Android app in Kotlin or Java that retrieves the data from https://fetch-hiring.s3.amazonaws.com/hiring.json.
@@ -17,8 +19,6 @@ The final result should be displayed to the user in an easy-to-read list.
 <img src="https://github.com/ChuliangYang/FetchDemo/blob/main/Arch%20diagram.png" alt="Architecture Diagram" width="1200" height="1000"/>
 
 ## Tech Stack
-
-Demonstrate modern android tech stack as well as architectual approach:
 
 - MVVM + Clean
 - Compose UI
