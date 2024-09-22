@@ -24,6 +24,7 @@ The final result should be displayed to the user in an easy-to-read list.
 - Compose UI
 - Flow + coroutine
 - Retrofit
+- Hilt
 
 ## Screen
 <img src="https://github.com/ChuliangYang/FetchDemo/raw/main/Screenshot_20240922_172726.png" alt="Screen" width="300" height="600"/>
