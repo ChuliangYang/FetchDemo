@@ -19,7 +19,7 @@ class FetchListUseCase @Inject constructor(private val hiringListRepository: Hir
                     it.listId
                 }
                 .map { entry ->
-                    entry.key to entry.value.sortedBy { it.name }
+                    entry.key to entry.value.sortedBy { it.name?.split(" ")?.last()?.toInt() }
                 }
                 .toList()
                 .sortedBy { (listId, _) -> listId }
